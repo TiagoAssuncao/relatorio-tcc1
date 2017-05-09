@@ -1,48 +1,48 @@
 \chapter[Estado da Arte]{Estado da Arte}
 Esta sessão trará todo referencial teórico necessário para desenvolver o projeto
-de aplicação do octalysis, contemplando tópicos explicativos sobre os subsídios
+de aplicação do \textit{Octalysis}, contemplando tópicos explicativos sobre os subsídios
 necessários para suporte na construção deste. Este capítulo contempla três sessões.
 A sessão \ref{sec:gamifição} trata sobre o contexto de gamificação atual, qual a
 sua funcionalidade e qual a sua aplicação na sociedade, bem como a apresentação
-de um Framework consolidado para o seu desenvolvimento. A sessão \ref{sec:redessociais}
+de um \textit{Framework} consolidado para o seu desenvolvimento. A sessão \ref{sec:redessociais}
 trata sobre Redes Sociais com a proposta que vai de encontro com a linha da RSA.
 Por fim, na sessão \ref{sec:processo_de_desenvolvimento_de_software},
 será apresentado uma visão geral sobre processos de
-Desenvolvimento de Software, bem como a Metodologia que será aplicada e utilizada
+Desenvolvimento de \textit{Software}, bem como a Metodologia que será aplicada e utilizada
 para a conclusão do projeto estipulado.
 
 \section{Gamifição}
 \label{sec:gamifição}
 A gamifição, apesar deste nome, não remete que uma dada ferramenta é um jogo,
 como dito por \cite{popularitygamification}, este processo é o emprego de
-várias funcionalidades e características presentes em Games em uma determinada
-plataforma. Este utiliza como exemplo a palavra game-fy-ing, que nos sugere
-exatamente o fato de aplicar estas características de Game dentro de algo.
+várias funcionalidades e características presentes em \textit{Games} em uma determinada
+plataforma. Este utiliza como exemplo a palavra \textit{game-fy-ing}, que nos sugere
+exatamente o fato de aplicar estas características de \textit{Game} dentro de algo.
 
-A aplicação e a diferença entre game e gamifição fica evidenciada
+A aplicação e a diferença entre \textit{game} e gamifição fica evidenciada
 no estudo de \cite{deterding2011gamification}, onde estes afirmam que a gamifição contém  apenas
-um uso dos elementos das características de design de games, tudo isso,
-aplicado em contextos que não são games. O que é totalmente diferente
-de um design produzido unicamente para jogos.
+um uso dos elementos das características de \textit{design} de \textit{games}, tudo isso,
+aplicado em contextos que não são \textit{games}. O que é totalmente diferente
+de um \textit{design} produzido unicamente para jogos.
 
 A primeira vez que se tem registro do uso do termo gamifição foi em 2002,
 por \cite{pelling}, mas ainda assim este termo não foi aplicado e comumente
 utilizado. Apenas no final de 2010, como dito por \cite{deterding2011gamification}, que
-este termo foi adotado como uma maneira não de transformar algo em um game,
+este termo foi adotado como uma maneira não de transformar algo em um \textit{game},
 mas de aplicar e aproveitar todas as características positivas deste em uma dada
 plataforma.
 
 Todo o processo de gamifição aplicado a qualquer plataforma se basea em
-quatro blocos, que podem ser características advindas dos games. Podem ser
+quatro blocos, que podem ser características advindas dos \textit{games}. Podem ser
 aplicados os seguintes pontos, com alguns a mais ou a menos, a depender
 do perfil do profissional que está desenhando a gamifição, segundo \cite{mcgonigal2011reality}.
 Os quatro pontos são os seguintes:
 
 \begin{itemize}
-    \item Goal;
-    \item Rules;
-    \item Feedback System;
-    \item Voluntary Participation.
+    \item Objetivo;
+    \item Regras;
+    \item Sistema de \textit{Feedback};
+    \item Participação voluntária
 \end{itemize}
 
 O pensamento de \cite{deterding2011gamification}  sobre a divisão clara entre jogos sérios
@@ -51,7 +51,7 @@ apresenta os limites de cada parte. Este pensamento, desenhado em um diagrama,
 está apresentado na Figura \ref{fig:gamificacaodetalhada}. Este modo de pensar é interessante, pois
 é similar à composição de jogos, composta por \cite{mcgonigal2011reality}, onde este
 propõe uma sequência de regras, participações voluntárias, sistema de
-feedbacks e metas, que são todos feitos e elaborados para um contexto que
+\textit{feedbacks} e metas, que são todos feitos e elaborados para um contexto que
 não é de aplicação de um jogo, chamados de não jogo. A figura \ref{fig:gamificacaodetalhada}
 também se enquadra no mesmo pensamento e perspectiva de \cite{mcgonigal2011reality}.
 
@@ -74,18 +74,18 @@ mesmo acreditando que a discussão seja válida para a comunidade.
 Assim, dessa forma, temos a definição de \cite{zichermann2011gamification} sobre qual é o conceito de
 gamifição, afirmando que este é um processo de pensamento da aplicação assim
 como jogador e fazendo a utilização
-de mecanismos de game que servem para enganjar e motivar os usuários a utilizarem
+de mecanismos de \textit{game} que servem para enganjar e motivar os usuários a utilizarem
 determinada funcionalidade e resolver problemas.
 
 Autor, em seu estudo, defende o quão importante a gamifição é na definição
-de alguma plataforma. Ele utiliza a pergunta: "Why Gamify?". Assim, este defende
+de alguma plataforma. Ele utiliza a pergunta: "\textit{Why Gamify?}". Assim, este defende
 que a gamifição é uma ferramenta poderosa, que consegue capturar com habilidade
 a atenção de pessoas para alguma atividade alvo definida.
 
 Autor ainda defende  o poder da gamifição com alguns exemplos práticos,
 como a utilização por 18 milhões de pessoas em todo o mundo do jogo Nike+.
 Além da interessante utilização modificada dos jogadores de
-Piano Stairs que jogam em Odenplan, onde sessenta e seis porcento destes
+\textit{Piano Stairs} que jogam em \textit{Odenplan}, onde sessenta e seis porcento destes
 escolheram a opção de escada e não a opção de elevador.
 
 \subsection{Modelos de Bartle}
@@ -121,6 +121,7 @@ social. Os perfis definidos são os seguintes:
         de se tornar mais poderoso, explorar é uma forma de adquirir mais habilidades,
         socializar é uma forma de conhecer novas táticas de batalha com os demais
         usuários.
+        % eugenio.semprebone
     \item Socializadores: seu foco e motivação é conhecer e criar relacionamento
         com outras pessoas. Todo o ambiente do jogo é apenas um meio para que
         os laços sejam criados. O jogo em si pouco importa, mas sim os relacionamentos
@@ -129,7 +130,7 @@ social. Os perfis definidos são os seguintes:
         Acumular pontos é necessário para conseguir ter acesso a níveis desconhecidos
         e que impede que as relações sejam feitas. Já utilizar práticas assassinas são
         executadas em último caso, apenas se for necessário para continuar sua trajetória
-        durante o game.
+        durante o \textit{game}.
 \end{itemize}
 
 Para a definição destes usuários, \cite{bartle1996hearts} desenvolveu um gráfico que demonstra o
@@ -152,13 +153,13 @@ um todo. Estas diferenças podem ser observadas na Figura \ref{fig:perfiljogador
 
 \subsection{Modelos centrados no ser humano}
 \label{sub:modelosnoserhumano}
-Existem no mercado vários frameworks e projetos que tem como finalidade o ser
+Existem no mercado vários \textit{Frameworks} e projetos que tem como finalidade o ser
 humano que está por trás do que está sendo gamificado. Além disso, há
 vários processos de gamificação que tem como base esta filosofia. 
 \cite{kumar2013gamification}
 cunhou este termo, também sendo utilizado por \cite{chou2015actionable} em seu projeto.
 Estes dois projetos serão demonstrados a seguir nesta sessão. O primeiro
-deles será o modelo de Kumar, sendo o segundo o framework Octalysis, de Yu-kai Chou.
+deles será o modelo de Kumar, sendo o segundo o \textit{Framework} Octalysis, de Yu-kai Chou.
 
 \subsubsection{Modelo de Kumar}
 \label{sub:modelodekumar}
@@ -181,13 +182,13 @@ três devem ser modeladas para este usuário.
 \begin{figure}[h]
     \centering
     \includegraphics[width=400px, scale=1]{figuras/kumar}
-    \caption{ Design centrado no ser humano.}
+    \caption{ \textit{Design} centrado no ser humano.}
     \label{fig:Kumar}
 \end{figure}
 
 Além da missão, motivação e mecânica é necessário que haja todo um gerenciamento
-destes três pontos, para ajustá-los de acordo com os feedbacks do usuário. Dessa
-maneira, a cada interação, o framework deve passar por um ponto de monitoramento,
+destes três pontos, para ajustá-los de acordo com os \textit{feedbacks} do usuário. Dessa
+maneira, a cada interação, o \textit{Framework} deve passar por um ponto de monitoramento,
 medição e gerenciamento dos variantes. Para que assim, seja possível monitorar e
 avaliar o quão é necessário modificar as estratégias de negócio.
 
@@ -195,14 +196,14 @@ avaliar o quão é necessário modificar as estratégias de negócio.
 \label{sub:modelodeyu-kaichou}
 Este é um modelo que o principal foco é o personagem humano, que está do lado
 de fora do jogo. \cite{chou2015actionable} acredita que o usuário vem antes de qualquer evento
-dentro de uma gamificação. A sua intenção, elaborando um novo design de projeto
+dentro de uma gamificação. A sua intenção, elaborando um novo \textit{design} de projeto
 de gamificação, é quebrar o paradigma de que esta deve ter um foco funcional,
 apenas para obter resultados rápidos. Este acredita que a função da gamificação
 deve vir para engajar e motivar o ser humano, e para isso, é nessário entender o
 que está por trás de tudo isso, ou seja, as pessoas que estão para ter o
 potencial de engajamento aumentado.
 
-Chou desenvolveu um framework que este intitulou de Octalysis, no qual atribuiu
+Chou desenvolveu um \textit{Framework} que este intitulou de Octalysis, no qual atribuiu
 este nome devido as oito faces de motivações básicas do usuário definido por ele.
 Este esquema é representado pelas motivações básicas, uma em cada face do Octalysis,
 como representado na figura \ref{fig:octalysisex}.
@@ -210,24 +211,24 @@ como representado na figura \ref{fig:octalysisex}.
 \begin{figure}[h]
     \centering
     \includegraphics[width=300px, scale=1]{figuras/octalysisex}
-    \caption{Octalysis Framework.}
+    \caption{\textit{Octalysis Framework.}}
     \label{fig:octalysisex}
 \end{figure}
 
-Dentre as opções e os frameworks diferentes de gamificação, para a aplicação
+Dentre as opções e os \textit{Frameworks} diferentes de gamificação, para a aplicação
 deste trabalho será utilizado o Octalysis. Assim, será dedicado um capítulo
-unicamente para a definição deste framework, que será disposto a seguir.
+unicamente para a definição deste \textit{Framework}, que será disposto a seguir.
 
 \input{editaveis/octalysis}
 
 \section{Redes Sociais}
 \label{sec:redessociais}
-As redes sociais, ou cunhando o termo em inglês: Social Nerwork Sites(SNSs),
+As redes sociais, ou cunhando o termo em inglês: \textit{Social} \textit{Nerwork} \textit{Sites}(SNSs),
 tem se tornado extremamente populares na última década. 
 Várias
 Redes Sociais despontaram e tomaram proporções grandes, tendo uma gama grande
-de usuários participando destas. Alguns exemplos são: MySpace, Facebook, Twitter,
-ByWorld, entre outras, que conseguiram milhões de usuários, onde a maioria integra
+de usuários participando destas. Alguns exemplos são: \textit{MySpace}, \textit{Facebook}, \textit{Twitter},
+\textit{ByWorld}, entre outras, que conseguiram milhões de usuários, onde a maioria integra
 as suas funcionalidades com hábitos diários praticados pelos usuários.
 Estas redes sociais estão repletas de tecnologias e funcionalidades diferentes,
 trazendo características e suportando uma gama grande de interesses e práticas
@@ -239,7 +240,7 @@ dos indivíduos. Estas informações e a definição de rede social é defendida
 
 \label{sec:definicao}
 Para \cite{socialnetworkdefinition}, um site de rede social é um serviço
-de base web, que permite que usuários individuais construam um perfil público, ou
+de base \textit{web}, que permite que usuários individuais construam um perfil público, ou
 semi público definido pelas fronteiras do sistema. Este articula com uma lista de
 vários outros usuários com quem podem compartilhar uma conexão, além de ver e
 interagir com esta gama. Estes podem fazer novos amigos e novas conexões no sistema.
@@ -263,53 +264,53 @@ na figura \ref{fig:historicosns}.
 \begin{figure}[h]
     \centering
     \includegraphics[width=330px, scale=1]{figuras/historicosns}
-    \caption{Timeline of the launch dates of many major SNSs and dates when community sites
-re-launched with SNS features. }
+    \caption{\textit{Timeline of the launch dates of many major SNSs and dates when community sites
+re-launched with SNS features. }}
     \label{fig:historicosns}
 \end{figure}
 
 Pode-se observar, de acordo com a timeline, que a primeira rede social que se tem
-registro, utilizando o conceito abordado acima, é a SixDegrees.com, sendo lançada
+registro, utilizando o conceito abordado acima, é a \textit{SixDegrees.com}, sendo lançada
 em 1997. Esta permitia com que os usuários criassem seus perfis, que adicionassem
 amigos, tendo assim uma lista destes. E em 1998, começou a permitir que fosse possível
 navegar entre os perfis que estavam em sua lista de amigos. Segundo os autores,
-essas características e vizualização de perfil já existiam antes mesmo da SixDegrees.com,
+essas características e vizualização de perfil já existiam antes mesmo da \textit{SixDegrees.com,}
 em várias aplicações de encontro romântico que eram presentes.
 
-Em 1999, LiveJournal adicionou algo que se tornaria muito comum nos dias de hoje:
+Em 1999, \textit{LiveJournal} adicionou algo que se tornaria muito comum nos dias de hoje:
 a lista de conexões com outros amigos dos seus amigos em suas respectivas páginas.
 Além disso, ela propiciava com que os usuários conseguissem marcar os amigos
 dos seus amigos como conexões diretas, para que estes conseguissem ver seus Jornais
 publicados, além disso, era possível fazer a gerência de privacidade, para
 aplicar filtros e informações que os usuários poderiam ver.
 
-A próxima onda de redes sociais começaram com a Ryze.com, que foi lançada em 2001,
+A próxima onda de redes sociais começaram com a \textit{Ryze.com}, que foi lançada em 2001,
 para ajudar as pessoas a alavancarem as suas carreiras pela internet, similar
-ao que temos no LinkedIn nos dias de hoje. O fundador da Ryze disse que mostrou o site à seu amigo,
+ao que temos no LinkedIn nos dias de hoje. O fundador da \textit{Ryze} disse que mostrou o site à seu amigo,
 e alguns laços foram criados, primeiramente na cidade de São Fransisco. Para este
 escopo eram utilizados apenas alguns negócios de tecnologia e comunidades acadêmicas
 incluindo entusiastas e investidores de informática para esta SNS. No final das
-contas Ryze nunca atingiu uma popularidade grande e posteriormente a Tribe.net foi mais atrativa para o
-público neste nicho de negócio, logo após, sendo substituída pela atual LinkedIn.
+contas \textit{Ryze} nunca atingiu uma popularidade grande e posteriormente a \textit{Tribe.net} foi mais atrativa para o
+público neste nicho de negócio, logo após, sendo substituída pela atual \textit{LinkedIn}.
 
 Um grande investimento começou a ser aplicado no Vale do Silício, e várias pessoas
 começaram a virar as suas atenções para produtos desenvolvidos ali. Um dos exemplos
 de sucesso, foi o Google Orkut, que em 2006 foi  um fracasso nos Estados Unidos, porém
 sofreu uma invasão brasileira, que fez com que este se tornasse uma forte potência
-nacional. Outros exemplos deste local foram os espaços Live da Microsoft, como a.k.a. MSN.
+nacional. Outros exemplos deste local foram os espaços \textit{Live} da \textit{Microsoft}, como a.k.a. \textit{MSN}.
 
-O MySpace começou a ser desenvolvido em Santa Mônica, na California no ano de 2003.
+O \textit{MySpace} começou a ser desenvolvido em Santa Mônica, na Califórnia no ano de 2003.
 Os seus fundadores tinham uma estratégia de conseguir conquistar os usuários de uma
-outra plataforma já conhecida, a  Friendster. O MySpace conseguiu com algum tempo
+outra plataforma já conhecida, a  \textit{Friendster}. O \textit{MySpace} conseguiu com algum tempo
 tomar o mercado e se consagrou, em 2007, como uma grande potência nos Estados Unidos.
 
-Porém, enquanto o MySpace estava dominando o território americano, outras redes sociais
-estavam desbravando o mundo, como Orkut, aqui no Brasil e na Índia, Mixi no Japão, 
-Lunar Storm na Suécia, Dutch na Polônia dentre vários outros exemplos. Por sua vez, nascia
-no ambiente acadêmico o Facebook, em 2004, apenas para a Harvard. Em 2005, o Facebook começou
+Porém, enquanto o \textit{MySpace} estava dominando o território americano, outras redes sociais
+estavam desbravando o mundo, como \textit{Orkut}, aqui no Brasil e na Índia, \textit{Mixi} no Japão, 
+\textit{Lunar} \textit{Storm} na Suécia, \textit{Dutch} na Polônia dentre vários outros exemplos. Por sua vez, nascia
+no ambiente acadêmico o \textit{Facebook}, em 2004, apenas para a \textit{Harvard}. Em 2005, o \textit{Facebook} começou
 a ser difundido para estudantes de universidades americanas e profissionais corporativos.
 
-Com um grande investimento de alguns visionários, o Facebook se tornou uma grande empresa
+Com um grande investimento de alguns visionários, o \textit{Facebook} se tornou uma grande empresa
 com potenciais mundiais, como é o caso hoje, e está presente em vários países espalhados
 pelo mundo.
 
@@ -319,29 +320,29 @@ No ambiente das redes sociais, existem vários escopos e tecnologias de desenvol
 Ou seja, existem muitas redes sociais que abordam várias categorias diferentes
 de SNS. Uma dessas linhagens são as redes sociais que tem alguma característica
 anônima, tendo um caráter de mistério sobre os fatos relatados. Serão
-abordados dois exemplos de redes sociais anônimas: ExpressMind e Social Matching.
+abordados dois exemplos de redes sociais anônimas: \textit{ExpressMind} e \textit{Social Matching.}
 
-O estudo da Social Matching, realizado por \cite{expressmind},
+O estudo da \textit{Social Matching,} realizado por \cite{expressmind},
 apresenta os resultados desta. Ela trazia uma série de indicações para o usuário,
 possibilitando executar as opções de afirmar se gosta ou não de peculiaridades
-destes. Assim, o sistema tem algoritmos de match para verificar quais são
-os potenciais matches e os indicando aos usuários. Eles tiveram um bom resultado,
-apontando um resultado final de 33\% mais matches com a utilização do algoritmo
+destes. Assim, o sistema tem algoritmos de \textit{match} para verificar quais são
+os potenciais \textit{matches} e os indicando aos usuários. Eles tiveram um bom resultado,
+apontando um resultado final de 33\% mais \textit{matches} com a utilização do algoritmo
 do que sem este.
 
-Outro estudo, abordando as funcionalidades e funcionamento da ExpressMind,
+Outro estudo, abordando as funcionalidades e funcionamento da \textit{ExpressMind},
 produzido por \cite{expressmind}. Esta tinha a funcionalidade
 de  permitir com que os usuários façam posts anônimos, não mostrando id, label ou nenhuma
 maneira de fazer com que os leitores leiam sobre o que foi postado. Isto faz com que os
 usuários possam falar sendo imparciais, gerando maior liberdade para
 seus anúncios.
 
-Uma outra feature presente na ExpressMind é o sistema de recomendação e atribuição
+Uma outra \textit{feature} presente na \textit{ExpressMind} é o sistema de recomendação e atribuição
 de notas aos posts e aos usuários. Este sistema de recomendação possui notas
 de -5 a +5, sendo que tanto os usuários quanto os posts possuem esta nota.
 
 Essas notas são utilizadas como entrada para os algoritmos de recomendação e
-ranking dos usuários e posts. Que formam uma lista das relações entre
+\textit{ranking} dos usuários e posts. Que formam uma lista das relações entre
 os usuários.
 
 \cite{expressmind} fizeram uma pesquisa com seus usuários
@@ -357,7 +358,7 @@ O resultado está na figura \ref{fig:expressmind}.
 \end{figure}
 
 Com estes resultados, dentre as opções avaliadas separadamente, é possível
-observar que a principal motivação que fazem os usuários utilizarem a rede social match
+observar que a principal motivação que fazem os usuários utilizarem a rede social \textit{match}
 é a possibilidade de expressão livre, onde o usuário pode expressar seus sentimentos
 e suas vontades bem com este se interessar.
 
@@ -365,38 +366,38 @@ Este é um ponto que a proposta deste trabalho abrange fortemente, possibilitand
 as pessoas expressem o que pensam livremente sobre outras. Desta maneira,
 estes pontos serão abordados ao longo do desenvolvimento da Rede Social About.
 
-\section{Desenvolvimento de Software}
+\section{Desenvolvimento de \textit{Software}}
 \label{sec:processo_de_desenvolvimento_de_software}
-Este capítulo apresenta conceitos sobre processos de produção de software e alguns modelos de processo genéricos, como cascata, evolucionário e outros.
+Este capítulo apresenta conceitos sobre processos de produção de \textit{Software} e alguns modelos de processo genéricos, como cascata, evolucionário e outros.
 
-\cite{pressman2009engenharia} traz uma boa definição para processos de software, afirmando que trata-se de um conjunto de metodologias definidas das atividades, ações e tarefas definidas para o desenvolvimento de um software de alta qualidade.
+\cite{pressman2009engenharia} traz uma boa definição para processos de \textit{Software}, afirmando que trata-se de um conjunto de metodologias definidas das atividades, ações e tarefas definidas para o desenvolvimento de um \textit{Software} de alta qualidade.
 
-A Engenharia de Software (ESW) está diretamente ligada com o processo. Seu compromisso é garantir que haja qualidade de produção, pois, qualidade do processo resulta em qualidade no produto.
+A Engenharia de \textit{Software} (ESW) está diretamente ligada com o processo. Seu compromisso é garantir que haja qualidade de produção, pois, qualidade do processo resulta em qualidade no produto.
 
-De acordo com \cite{pressman2009engenharia}, os engenheiros de software tem que possuir criatividade e conhecimento para que sejam capazes de analisar a demanda do mercado e então alinhar o desenvolvimento da melhor maneira possível, para que o resultado seja um produto de qualidade e entregue no prazo de tempo esperado.
+De acordo com \cite{pressman2009engenharia}, os engenheiros de \textit{Software} tem que possuir criatividade e conhecimento para que sejam capazes de analisar a demanda do mercado e então alinhar o desenvolvimento da melhor maneira possível, para que o resultado seja um produto de qualidade e entregue no prazo de tempo esperado.
 
- Para detalhar um processo, \cite{pressman2009engenharia} diz que um procedimento de software consiste em definir qual metodologia será utilizada para executar as diversas ações que o compõem. Além disso, as ações são um conjunto de tarefas de trabalho a ser completadas, artefatos de software que serão produzidos, marcos utilizados para indicar estado do processo e fatores para garantir a qualidade.
+ Para detalhar um processo, \cite{pressman2009engenharia} diz que um procedimento de \textit{Software} consiste em definir qual metodologia será utilizada para executar as diversas ações que o compõem. Além disso, as ações são um conjunto de tarefas de trabalho a ser completadas, artefatos de \textit{Software} que serão produzidos, marcos utilizados para indicar estado do processo e fatores para garantir a qualidade.
 
-Para \cite{sommerville2011software}, existem muitas metodologias diferentes para se desenvolver um software, porém, algumas atividades são fundamentais para qualquer desenvolvimento, dentre elas são citadas as seguintes:
+Para \cite{sommerville2011software}, existem muitas metodologias diferentes para se desenvolver um \textit{Software}, porém, algumas atividades são fundamentais para qualquer desenvolvimento, dentre elas são citadas as seguintes:
 
 \begin{enumerate}
-    \item Especificação de software: é preciso definir a funcionalidade do software e as restrições em sua operação;
+    \item Especificação de \textit{Software}: é preciso definir a funcionalidade do \textit{Software} e as restrições em sua operação;
 
-    \item Projeto e implementação de software: deve ser produzido o software de maneira que cumpra a especificação;
+    \item Projeto e implementação de \textit{Software}: deve ser produzido o \textit{Software} de maneira que cumpra a especificação;
 
-    \item Validade de software: o software precisa ser validado para garantir que ele faz o que o cliente quer que seja feito;
+    \item Validade de \textit{Software}: o \textit{Software} precisa ser validado para garantir que ele faz o que o cliente quer que seja feito;
 
-    \item Evolução de software: o software precisa evoluir para atender as necessidades mutáveis do cliente.
+    \item Evolução de \textit{Software}: o \textit{Software} precisa evoluir para atender as necessidades mutáveis do cliente.
 \end{enumerate}
 
 
-\cite{sommerville2011software} afirma que um modelo de software é uma representação de um processo de forma abstrata. Existem vários modelos genéricos de produção de software, e que podem ser adaptados. Porém alguns podem ser destacados:
+\cite{sommerville2011software} afirma que um modelo de \textit{Software} é uma representação de um processo de forma abstrata. Existem vários modelos genéricos de produção de \textit{Software}, e que podem ser adaptados. Porém alguns podem ser destacados:
 
 \begin{itemize}
     \item Modelo em cascata: este modelo considera as atividades de especificação
         , desenvolvimento, validação e evolução que são fundamentais para 
         o processo, e as representa como fases separadas do processo, como 
-        a especificação dos requisitos, projeto do software, implementação, testes e assim por diante;
+        a especificação dos requisitos, projeto do \textit{Software}, implementação, testes e assim por diante;
 
     \item Desenvolvimento evolucionário: essa abordagem intercala as atividades 
         de especificação, desenvolvimento e validação. Um sistema inicial 
@@ -431,16 +432,16 @@ As metodologias de desenvolvimento ágeis podem ser expressadas por uma agregaç
 
 \begin{itemize}
     \item Indivíduos e interações mais que processos e ferramentas;
-    \item Software em funcionamento mais que documentação abrangente;
+    \item \textit{Software} em funcionamento mais que documentação abrangente;
     \item Colaboração com o cliente mais que negociação de contratos;
     \item Responder a mudanças mais que seguir um plano.
 \end{itemize}
 
 Para \cite{beck2001agile}, por mais que exista valor nos itens à direita da frase, os itens a esquerda são mais valorizados nessa metodologia.
 
-Segundo \cite{pressman2009engenharia}, o surgimento das metodologias ágeis foi uma estratégia de sanar os empecilhos vigentes da engenharia de software tradicional. A metodologia apresenta inúmeros benefícios, porém, não pode ser aplicada em qualquer projeto de desenvolvimento, produtos, pessoas e situações. Para cada ambiente existe uma metodologia que atenda melhor as suas necessidades.
+Segundo \cite{pressman2009engenharia}, o surgimento das metodologias ágeis foi uma estratégia de sanar os empecilhos vigentes da engenharia de \textit{Software} tradicional. A metodologia apresenta inúmeros benefícios, porém, não pode ser aplicada em qualquer projeto de desenvolvimento, produtos, pessoas e situações. Para cada ambiente existe uma metodologia que atenda melhor as suas necessidades.
 
-Nessa linha de pensamento, \cite{pressman2009engenharia} diz que os métodos ágeis são muito convenientes para projetos que estão em constante mudança e que as necessidades são alteradas em um período de tempo curto. Isso é permitido devido à política de entrega de uma pequena parte do software pronta para o cliente, com ciclos curtos, chamados de interações.
+Nessa linha de pensamento, \cite{pressman2009engenharia} diz que os métodos ágeis são muito convenientes para projetos que estão em constante mudança e que as necessidades são alteradas em um período de tempo curto. Isso é permitido devido à política de entrega de uma pequena parte do \textit{Software} pronta para o cliente, com ciclos curtos, chamados de interações.
 
 Como consequência das filosofias ágeis, \cite{soares} observou que há uma grande preocupação com a otimização do tempo, ao ter um esforço menor com documentação desnecessária para alcançar o produto final e mais devoção para na produção.
 
