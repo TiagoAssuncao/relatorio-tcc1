@@ -1,7 +1,7 @@
-\chapter[Definição da Proposta]{Definição da Proposta}
+\chapter[Desenvolvimento da Proposta]{Desenvolvimento da Proposta}
 
 Para a definição do trabalho, os seguintes
-passos serão estabelecidos a fim de executar proposta, cada um será
+passos são estabelecidos a fim de executar proposta, cada um é
 descrito em uma subsessão: execução do teste piloto, \textit{survey} para identificação das técnicas de gamificação,
 Análise estatística das técnicas, construção do \textit{framework} de gamificação, escolha do objeto de gamificação,
 implementação das técnicas no objeto de gamificação.
@@ -27,12 +27,12 @@ Para desenvolver e aplicar este piloto, será necessário executar um procedimen
 % desenvolver a solução, virá-la para produção, aplicar marketing da solução para um público reduzido, manter solução, finalizar solução.
 
 \begin{itemize}
-    \item Definir tecnologia
-    \item Desenvolver solução
-    \item Implantação em rodução
-    \item Aplicar \textit{marketing} da solução para um público reduzido
-    \item Manter solução
-    \item Finalizar solução
+    \item Definir tecnologia;
+    \item Desenvolver solução;
+    \item Implantação em rodução;
+    \item Aplicar \textit{marketing} da solução para um público reduzido;
+    \item Manter solução;
+    \item Finalizar solução.
 \end{itemize}
 
 Estes pontos necessários para a implementação da solução do projeto piloto serão detalhados 
@@ -46,19 +46,19 @@ consideração para a sua construção serão os seguintes:
 
 \begin{itemize}
     \item Desenvolvimento rápido: por se tratar de uma simples solução, temporária, o tempo de implementação deverá
-        ser curto, relevando o requisito de utilizar um \textit{framework} de alta produtividade de forma escalável.
+        ser curto, relevando o requisito de utilizar um \textit{framework} de alta produtividade de forma escalável;
     \item Padrões de \textit{Design} simples: por se tratar de uma aplicação extremamente funcional, tal que o usuário não irá
         utilizá-la por muito tempo, não há a necessidade de fortes esforços e grande elaboração dos padrões de
-        \textit{User} \textit{Experience}.
+        \textit{User} \textit{Experience};
     \item Escalabilidade baixa: como se trata de um público pequeno, para poucos usuários simultâneos, em torno de duzentos
-        acessos diários, o \textit{framework} pode ser de baixo desempenho, facilitando assim a sua escolha.
+        acessos diários, o \textit{framework} pode ser de baixo desempenho, facilitando assim a sua escolha;
     \item Os usuários não carecem de executar cadastros e \textit{logins}: para o escopo do piloto, cada usuário não necessitará
         fazer registros e \textit{logins} no \textit{site}. A política de gerenciamento dos votos será feita mediante armazenamento dos
         IP's utilizados durante o acesso, fazendo com que cada IP possa votar apenas uma vez dentro de um determinado
-        intervalo de tempo.
+        intervalo de tempo;
     \item Suporte para questionários: como o piloto se trata de questionários baseados em perguntas, há a necessidade que o \textit{framework}
         escolhido conceda suporte para criação de perguntas, possibilidade de votação, visualização e contagem dos votos
-        separados por perguntas.
+        separados por perguntas;
     \item Facilidade de implantação: como se trata de um \textit{site} \textit{web} bem rápido, há a necessidade de que este seja de fácil e rápida
         implantação, possibilitando que rapidamente seja colocado em produção. Dessa forma, o \textit{framework} escolhido também carece
         de propiciar suporte para esta \textit{feature}.
@@ -66,12 +66,12 @@ consideração para a sua construção serão os seguintes:
 
 Dados os requisitos acima, os seguintes itens serão ponderados para a escolha da ferramenta:
 \begin{itemize}
-    \item Desenvolvimento Rápido
-    \item Padrões de \textit{Design} Simples
-    \item Sem Autenticação
-    \item Baixa Escalabilidade
-    \item Suporte para Questionário
-    \item Facilidade de Implementação
+    \item Desenvolvimento Rápido;
+    \item Padrões de \textit{Design} Simples;
+    \item Sem Autenticação;
+    \item Baixa Escalabilidade;
+    \item Suporte para Questionário;
+    \item Facilidade de Implementação.
 \end{itemize}
 
 Dessa forma, o \textit{framework} escolhido e estipulado para a aplicação do
@@ -123,7 +123,7 @@ serão descritos abaixo para que a solução seja implementada com sucesso:
     \item Executar a criação de um questionário a fim de homologar a solução desenvolvida para os pré-requisitos estabelecidos. 
     \item Executar a integração da questão criada para homologação no \textit{layout} da \textit{home} da aplicação;
     \item Executar o gerenciamento de configuração de \textit{software} para que o código fonte seja armazenado. Este será posteriormente
-        capturado para executar a aplicação no servidor de produção;
+        capturado para executar a aplicação no servidor de produção.
 \end{enumerate}
 
 Com todos esses passos executados, a solução está operando de acordo como o esperado para recolher os dados básicos propostos anteriormente.
@@ -273,86 +273,86 @@ As técnicas que serão aplicadas já foram selecionadas no \textit{framework}. 
 
 \begin{multicols}{2}
     \begin{enumerate}
-        \item \textit{Narrative}
-        \item \textit{Beginner's Luck}
-        \item \textit{Free Lunch}
-        \item \textit{Elitism}
-        \item \textit{Humanity Hero}
-        \item \textit{Higher Meaning}
-        \item \textit{Destiny Child}
-        \item \textit{Status Points/Points}
-        \item \textit{Achievement Symbols/ Badges}
-        \item \textit{Leaderboards}
-        \item \textit{Progress Bar}
-        \item \textit{Glowing Choice}
-        \item \textit{Desert Oasis}
-        \item \textit{The Rockstar Effect}
-        \item \textit{Fixed Actions Rewards/Earned Lunch}
-        \item \textit{Quest List}
-        \item \textit{High Five}
-        \item \textit{Crowning}
-        \item \textit{LevelUp Symphony}
-        \item \textit{Aura Effect}
-        \item \textit{Step-by-Step Tutorial}
-        \item \textit{Boss Fight}
-        \item \textit{Evergreen Mechanics}
-        \item \textit{General's Carrot}
-        \item \textit{Real-Time Control}
-        \item \textit{Chain Combos}
-        \item \textit{Instant Feedback}
-        \item \textit{Blank Fills}
-        \item \textit{Voluntary Autonomy}
-        \item \textit{Choice Perception/Poison Picker}
-        \item \textit{Plant Picker/ Meaningful Choices}
-        \item \textit{Milestone Unlock}
-        \item \textit{Boosters}
-        \item \textit{Virtual Goods}
-        \item \textit{Build from Scratch}
-        \item \textit{Collection Set}
-        \item \textit{Exchangeable Points}
-        \item \textit{Monitor Attachment}
-        \item \textit{The Alfred Effect}
-        \item \textit{Mentorship}
-        \item \textit{Bragbuttons}
-        \item \textit{Trophyshelves}
-        \item \textit{Group Quest}
-        \item \textit{Social Treasures}
-        \item \textit{Social Proud}
-        \item \textit{Conformy Anchor}
-        \item \textit{Water Cooler}
-        \item \textit{Friending}
-        \item \textit{SeeSaw Bump}
-        \item \textit{Touting}
-        \item \textit{Bragging}
-        \item \textit{Thank-You Economy}
-        \item \textit{Dangling}
-        \item \textit{Ancored Juxtaposition}
-        \item \textit{Prize Pacing}
-        \item \textit{Options Pacing}
-        \item \textit{Patient Feedback}
-        \item \textit{Count Down}
-        \item \textit{Throttles}
-        \item \textit{Moats}
-        \item \textit{TortureBreak}
-        \item \textit{Envolved UI}
-        \item \textit{Glowing Choice}
-        \item \textit{Mystery Boxes/ Random Rewards}
-        \item \textit{Easter Eggs}
-        \item \textit{Sudden Rewards}
-        \item \textit{Visual Storytelling}
-        \item \textit{Obvious Wonder}
-        \item \textit{Rolling Rewards}
-        \item \textit{Mischief Puzzle}
-        \item \textit{Oracle Effect}
-        \item \textit{Lottery (Rolling Rewards)}
-        \item \textit{Mini Quests}
-        \item \textit{Countdown Timer}
-        \item \textit{Status Quo Sloth}
-        \item \textit{FOMO Ponch}
-        \item \textit{Sunk-Cost Tragedy}
-        \item \textit{Lost Progress}
-        \item \textit{Scarlett Letter}
-        \item \textit{Visual Grave}
+        \item \textit{Narrative};
+        \item \textit{Beginner's Luck};
+        \item \textit{Free Lunch};
+        \item \textit{Elitism};
+        \item \textit{Humanity Hero};
+        \item \textit{Higher Meaning};
+        \item \textit{Destiny Child};
+        \item \textit{Status Points/Points};
+        \item \textit{Achievement Symbols/ Badges};
+        \item \textit{Leaderboards};
+        \item \textit{Progress Bar};
+        \item \textit{Glowing Choice};
+        \item \textit{Desert Oasis};
+        \item \textit{The Rockstar Effect};
+        \item \textit{Fixed Actions Rewards/Earned Lunch};
+        \item \textit{Quest List};
+        \item \textit{High Five};
+        \item \textit{Crowning};
+        \item \textit{LevelUp Symphony};
+        \item \textit{Aura Effect};
+        \item \textit{Step-by-Step Tutorial};
+        \item \textit{Boss Fight};
+        \item \textit{Evergreen Mechanics};
+        \item \textit{General's Carrot};
+        \item \textit{Real-Time Control};
+        \item \textit{Chain Combos};
+        \item \textit{Instant Feedback};
+        \item \textit{Blank Fills};
+        \item \textit{Voluntary Autonomy};
+        \item \textit{Choice Perception/Poison Picker};
+        \item \textit{Plant Picker/ Meaningful Choices};
+        \item \textit{Milestone Unlock};
+        \item \textit{Boosters};
+        \item \textit{Virtual Goods};
+        \item \textit{Build from Scratch};
+        \item \textit{Collection Set};
+        \item \textit{Exchangeable Points};
+        \item \textit{Monitor Attachment};
+        \item \textit{The Alfred Effect};
+        \item \textit{Mentorship};
+        \item \textit{Bragbuttons};
+        \item \textit{Trophyshelves};
+        \item \textit{Group Quest};
+        \item \textit{Social Treasures};
+        \item \textit{Social Proud};
+        \item \textit{Conformy Anchor};
+        \item \textit{Water Cooler};
+        \item \textit{Friending};
+        \item \textit{SeeSaw Bump};
+        \item \textit{Touting};
+        \item \textit{Bragging};
+        \item \textit{Thank-You Economy};
+        \item \textit{Dangling};
+        \item \textit{Ancored Juxtaposition};
+        \item \textit{Prize Pacing};
+        \item \textit{Options Pacing};
+        \item \textit{Patient Feedback};
+        \item \textit{Count Down};
+        \item \textit{Throttles};
+        \item \textit{Moats};
+        \item \textit{TortureBreak};
+        \item \textit{Envolved UI};
+        \item \textit{Glowing Choice};
+        \item \textit{Mystery Boxes/ Random Rewards};
+        \item \textit{Easter Eggs};
+        \item \textit{Sudden Rewards};
+        \item \textit{Visual Storytelling};
+        \item \textit{Obvious Wonder};
+        \item \textit{Rolling Rewards};
+        \item \textit{Mischief Puzzle};
+        \item \textit{Oracle Effect};
+        \item \textit{Lottery (Rolling Rewards)};
+        \item \textit{Mini Quests};
+        \item \textit{Countdown Timer};
+        \item \textit{Status Quo Sloth};
+        \item \textit{FOMO Ponch};
+        \item \textit{Sunk-Cost Tragedy};
+        \item \textit{Lost Progress};
+        \item \textit{Scarlett Letter};
+        \item \textit{Visual Grave}.
     \end{enumerate}
 \end{multicols}
 
@@ -362,14 +362,14 @@ cada técnica pertence a uma motivação básica. Desta forma, será simples map
 Como citado anteriormente, existem oito motivações básicas, e cada uma engloba um conjunto de técnicas. As oito motivações básicas são as seguintes:
 
 \begin{enumerate}
-    \item Significado Épico \& Chamado
-    \item Desenvolvimento \& Realização
-    \item Empoderamento \& \textit{Feedback}
-    \item Propriedade \& Posse
-    \item Influência Social \& Pertencimento
-    \item Escassez \& Impaciência
-    \item Imprevisibilidade \& Curiosidade
-    \item Perda \& Rejeição
+    \item Significado Épico \& Chamado;
+    \item Desenvolvimento \& Realização;
+    \item Empoderamento \& \textit{Feedback};
+    \item Propriedade \& Posse;
+    \item Influência Social \& Pertencimento;
+    \item Escassez \& Impaciência;
+    \item Imprevisibilidade \& Curiosidade;
+    \item Perda \& Rejeição.
 \end{enumerate}
 
 Como se dará o cálculo para verificar a presença de uma motivação básica na aplicação?
@@ -425,7 +425,7 @@ A Figura \ref{fig:exoctalysis} está ilustrada um exemplo da figura do \textit{f
  \begin{figure}[h]
      \centering
 
-     \includegraphics[width=300px, scale=1]{figuras/exoctalysis}
+     \includegraphics[width=250px, scale=1]{figuras/exoctalysis}
      \caption{Exemplo do \textit{framework} \textit{octalysis}}
 
      \label{fig:exoctalysis}
@@ -612,7 +612,7 @@ Alguns passos são necessários para calcular o \textit{Alpha}. Estes procedimen
         escolhidas com alta confiabilidade;
     \item Para que seja possível utilizar um \textit{tracking} dos resultados posteriormente, estes devem ser exportados para uma planilha.
         Esta planilha deve ser de algum dos tipos estipulados para a escolha da ferramenta, de modo a garantir que esta terá suporte
-        para efetuar uma dada atividade.
+        para efetuar uma dada atividade;
     \item Para melhor organização do projeto, deverá ser criada uma pasta que armazenará todos os resultados gerados pelo cálculo do \textit{Alpha}
         de \textit{Cronbach}.
 \end{enumerate}
@@ -631,8 +631,8 @@ Para aferir estes valores será necessário seguir os seguintes passos:
 \begin{enumerate}
     \item Instalar o módulo para a Correlação de \textit{Pearson};
     \item Carregar o módulo  na aplicação para a Correlação de \textit{Pearson};
-    \item Executar a função de cálculo de correlação utilizando a matriz com dados confiáveis, obtidos a partir do \textit{alpha} de \textit{cronbach}.
-    \item Armazenar em memória o resultado do \textit{Alpha}
+    \item Executar a função de cálculo de correlação utilizando a matriz com dados confiáveis, obtidos a partir do \textit{alpha} de \textit{cronbach};
+    \item Armazenar em memória o resultado do \textit{Alpha}.
 \end{enumerate}
 
 Após estes passos, será possível armazenar em memória as correlações e resgatá-las, será possível fazer uma sumarização dos dados
@@ -662,7 +662,7 @@ o algoritmo apriori.
 O algoritmo apriori irá possibilitar que seja possível visualizar algumas regras, com uma confiabilidade estabelecida,
 quanto às técnicas a nível de:
 \begin{itemize}
-    \item Toda vez em que a técnica X ocorrer, a Y também irá ocorrer.
+    \item Toda vez em que a técnica X ocorrer, a Y também irá ocorrer;
     \item Toda vez que a técnica Y e Z ocorrerem, a W também irá ocorrer.
 \end{itemize}
 
@@ -846,25 +846,25 @@ Os pontos definidos para serem elaborados são os seguintes a fim de promover
 com que o usuário execute as seguintes ações, definidos como requisitos:
 
 \begin{itemize}
-    \item Conhecer a Rede Social About;
-    \item Clicar no link da Rede Social About
-    \item Conhecer as \textit{features} oferecidas pela Rede Social
-    \item Executar o tutorial de uso da About;
-    \item Compartilhar a Rede Social About com os amigos
-    \item Adicionar foto e email na network
-    \item Permitir a inscrição na lista de email
-    \item Fazer \textit{login} diariamente na network
-    \item Abrir semanalmente os emails enviados pela network
-    \item Compartilhar abouts com os amigos
-    \item Participar de grupos no \textit{facebook} sobre a rede social about
-    \item Adquirir a versão prêmio da rede social about
-    \item Inscrever em grupos de discussão sobre a rede social about
-    \item Escrever mais de um about diariamente
-    \item Votar em mais de vinte abouts diários
-    \item Se tornar contribuidor da Rede Social About;
-    \item Fazer parte da equipe de desenvolvedores da About
-    \item Propor melhorias para a about
-    \item Tornar-se moderador dos abouts
+    \item Conhecer a Rede Social About;;
+    \item Clicar no link da Rede Social About;
+    \item Conhecer as \textit{features} oferecidas pela Rede Social;
+    \item Executar o tutorial de uso da About;;
+    \item Compartilhar a Rede Social About com os amigos;
+    \item Adicionar foto e email na network;
+    \item Permitir a inscrição na lista de email;
+    \item Fazer \textit{login} diariamente na network;
+    \item Abrir semanalmente os emails enviados pela network;
+    \item Compartilhar abouts com os amigos;
+    \item Participar de grupos no \textit{facebook} sobre a rede social about;
+    \item Adquirir a versão prêmio da rede social about;
+    \item Inscrever em grupos de discussão sobre a rede social about;
+    \item Escrever mais de um about diariamente;
+    \item Votar em mais de vinte abouts diários;
+    \item Se tornar contribuidor da Rede Social About;;
+    \item Fazer parte da equipe de desenvolvedores da About;
+    \item Propor melhorias para a about;
+    \item Tornar-se moderador dos abouts.
 \end{itemize}
 
 
