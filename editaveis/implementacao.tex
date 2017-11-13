@@ -3,7 +3,7 @@
 Para a implementação do trabalho, os seguintes
 passos foram executados, cada um é
 descrito em uma subsessão: execução do teste piloto, \textit{survey} para identificação das técnicas de gamificação,
-Análise estatística das técnicas, construção do \textit{framework} de gamificação, escolha do objeto de gamificação,
+análise estatística das técnicas, construção do \textit{framework} de gamificação, escolha do objeto de gamificação,
 implementação das técnicas no objeto de gamificação.
 
 Aqui será relatado todos os passos que foram tomados para a realização do trabalho.
@@ -20,6 +20,44 @@ Aqui será relatado todos os passos que foram tomados para a realização do tra
 Com a intenção de validar a aplicação da About, foi implementado um piloto com as suas funcionalidades
 básicas. Nesta sessão iremos descrever sobre como esta implementação foi executada.
 
+Para desenvolver e aplicar este piloto, será necessário executar um procedimento
+com os seguintes passos:
+
+\begin{itemize}
+    \item Definir tecnologia;
+    \item Desenvolver solução;
+    \item Implantação em rodução;
+    \item Aplicar \textit{marketing} da solução para um público reduzido;
+    \item Manter solução;
+    \item Finalizar solução.
+\end{itemize}
+
+Primeiramente, haviam alguns pontos necessários ppara a implantação da aplicação. Assim como agilidade para colocar
+em produção e desenvolvimento rápido. Estes foram os padrões seguidos para a produção do piloto:
+
+
+\begin{itemize}
+    \item Desenvolvimento rápido;
+    \item Padrões de Design simples;
+    \item Escalabilidade baixa;
+    \item Os usuários não carecem de executar cadastros e logins;
+    \item Suporte para questionários;
+    \item Facilidade de implantação.
+\end{itemize}
+
+Assim, estes pontos foram avaliados. Desta forma, era necessário implementar um software
+de alta produtividade, que entregasse a funcionalidade muito rapidamente. Assim, dados estes
+pontos, a tecnologia escolhida foi o WordPress, utilizando a linguagem de programação PHP.
+
+Esta possui vários módulos prontos, desenvolvidos pela comunidade e forneceidos de maneira
+gratuita. Nestes módulos, temos componentes para questionários, design de interface já
+implementados facilmente e de extrema facilidade para implantação.
+
+Como o software é considerado pequeno, não houve nenhuma necessidade de preocupação com a 
+infraestrutura  do sistema e com fatores técnicos ligados à alta performace. Também não foi
+necessário fazer um controle de acessos e de usuários, pois a votação seria baseada no IP
+do cliente, não permitindo novos acessos daquele mesmo IP.
+
 \section{Levantamento das Técnicas de Gamificação}
 \label{sec:gamifição}
 Com base em uma pesquisa executada com os participantes do piloto, foi executado um levantamento das
@@ -27,12 +65,12 @@ técnicas básicas, para colocá-las frente aos objetivos estabelecidos no traba
 
 \section{Survey das Técnicas}
 \label{sec:gamifição}
-Para apurar a técnicas capturadas no levantamento, foi executado um survey, a fim de dados para
+Para apurar as técnicas capturadas no levantamento, foi executado um survey, a fim de dados para
 embasar uma análise estatística.
 
 \section{Análise Estatística}
 \label{sec:gamifição}
-Com base destes dados, foram definidos quais as técnicas tem relação entre si, para auxiliar no processo
+Com base nestes dados, foram definidos quais as técnicas tem relação entre si para auxiliar no processo
 da escolha destas para o Framework.
 
 \section{Construção do Framework}
@@ -43,7 +81,7 @@ de Gamificação.
 \section{Objeto de Gamificação}
 \label{sec:gamifição}
 Assim que todo o framework foi montado, possibilitou então que fossem escolhidos em quais
-pontos da About seria possível aplicá-los. Esta sessão irá discutir sobre todos pontos de escolha
+pontos da About seria possível aplicá-los. Esta sessão irá discutir sobre todos os pontos de escolha
 dos objetos de Gamificação.
 
 \section{Implementação das Técnicas}
