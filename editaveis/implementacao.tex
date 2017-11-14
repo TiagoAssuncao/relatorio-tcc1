@@ -18,19 +18,22 @@ Aqui será relatado todos os passos que foram tomados para a realização do tra
 \section{Execução do Piloto}
 \label{sec:execucao_do_piloto}
 Com a intenção de validar a aplicação da About, foi implementado um piloto com as suas funcionalidades
-básicas. Nesta sessão iremos descrever sobre como esta implementação foi executada.
+básicas. Aqui existia apenas um post, onde o administrador um da aplicação escolhe dentre temas propostos
+pelos usuários, que era postado a cada três dias.
+Nesta sessão iremos descrever sobre como esta implementação foi executada.
 
 Para desenvolver e aplicar este piloto, será necessário executar um procedimento
 com os seguintes passos:
 
-\begin{itemize}
+\begin{enumerate}
     \item Definir tecnologia;
     \item Desenvolver solução;
-    \item Implantação em rodução;
+    \item Implantação em produção;
     \item Aplicar \textit{marketing} da solução para um público reduzido;
     \item Manter solução;
     \item Finalizar solução.
-\end{itemize}
+\end{enumerate}
+
 
 Primeiramente, haviam alguns pontos necessários ppara a implantação da aplicação. Assim como agilidade para colocar
 em produção e desenvolvimento rápido. Estes foram os padrões seguidos para a produção do piloto:
@@ -58,10 +61,73 @@ infraestrutura  do sistema e com fatores técnicos ligados à alta performace. T
 necessário fazer um controle de acessos e de usuários, pois a votação seria baseada no IP
 do cliente, não permitindo novos acessos daquele mesmo IP.
 
+Escolhida a tecnologia, foi iniciada a implementação da aplicação. Esta consistiu em escolher o
+módulo de enquete e o módulo de layout. Após isto, tudo estava finalizado. 
+
+Para enquetes, foi
+utilizado o pacote WP-Polls, este pode ser encontrado em: \url{https://wordpress.org/plugins/wp-polls/}.
+
+Para a implementação do layout foi utilizado o módulo Amadeus, que pode ser encontrado em:
+\url{https://br.wordpress.org/themes/amadeus/}.
+
+No âmbito da implantação foi necessário apenas comprar um servidor cloud e instalar os pacotes do WordPress
+dentro deste. O código fonte da aplicação pode ser encontrado neste link: 
+\url{https://wordpress.org/download/}.
+
+Implementada a solução e operando, foi necessário divulgá-la para aqueles que utilizariam o código. 
+Então foi criado um perfil na rede social FaceBook, onde este divulgou para todos os alunos de engenharia
+de software o propósito do site, bem como cada um poderia utilizá-lo. Assim, foram feitas postagens diárias
+na página falando sobre as notícias da aplicação. A comunidade em si se empolgou bastante com os novos resultados.
+
+O perfil ganhou vários seguidores que participavam ativamente ou passivamente da plataforma, respondendo, criando e
+visualizando os posts realizados no projeto piloto.
+
+Para manter a solução, era necessário levantar enquetes para o público. Então, para manter o público interessado,
+foi criado uma segunda enquete que sempre estava disponível perguntando aos usuários:
+
+Qual seria o tema que eles desejavam ver no próximo post do piloto?
+
+Assim, todos os temas mais pedidos pelo público era lançado e operando ao longo de dois dias para uma votação. 
+
+Por fim, foi declarado que seria finalizada a solução e que o último post seria feito. Este foi realizado para a
+última votação. E assim o piloto saiu de produção. 
+
 \section{Levantamento das Técnicas de Gamificação}
 \label{sec:gamifição}
 Com base em uma pesquisa executada com os participantes do piloto, foi executado um levantamento das
 técnicas básicas, para colocá-las frente aos objetivos estabelecidos no trabalho.
+
+Primeiramente foi perguntado a alguns usuários que utilizaram a rede social para executar alguns
+pontos relativos à impressão destes ao piloto. Detalhes sobre como estes viam as impressões passadas.
+Claro que o intuito de todas as perguntas era idetificar como os usuários visualizavam dinâmicas
+que envolviam gamificação dentro do piloto.
+
+As perguntas realizadas aos usuários foram as seguintes:
+
+\begin{quotation}
+    Questão 01: Na sua opinião, o que este \textit{site} representava?
+\end{quotation}
+
+\begin{quotation}
+    Questão 02: O que você acredita que motivava e levava as pessoas a utilizarem o \textit{site}?
+\end{quotation}
+
+\begin{quotation}
+    Questão 03: E quanto ao contrário, o que você acredita que levava as pessoas a se desmotivarem e a não
+    utilizarem mais o \textit{site}?
+\end{quotation}
+
+Assim, para estas perguntas, tivemos um total de 4 pessoas respondendo este questionário. A resposta de cada
+usuário será descrita a seguir. Iremos dividir as etapas em questões. Listando assim as quatro respostas
+para cada questão.
+
+
+\subsection{Questão 01}
+
+\subsection{Questão 02}
+
+\subsection{Questão 03}
+
 
 \section{Survey das Técnicas}
 \label{sec:gamifição}
