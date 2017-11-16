@@ -250,6 +250,28 @@ Todas essas análises serão feitas na próxima sessão.
 Com base nestes dados, foram definidos quais as técnicas tem relação entre si para auxiliar no processo
 da escolha destas para o Framework.
 
+Todos estes estudos com base nos dados foram feitos através do resultado do survey aplicado nos usuários
+da plataforma. Estes foram armazenados em uma planilha ods.
+
+Para fazer todas essas análises, primeiramente foi necessário escolher uma ferramenta de processamento de dados.
+
+Como a ferramenta escolhida foi a RScript, da sessão 4.4.1, iremos proceder todos os detalhes de implementação
+levando em consideração essa tecnologia.
+
+
+Assim, primeiramente foi feita a instalação dos pacotes. Primeiramente é analisado
+se este está instalado dentro da máquina. 
+Caso esteja, o projeto vai continuar o código contrário, estes serão instalados.
+
+\lstinputlisting[language=Python, firstline=3, lastline=10]{statistics.r}
+
+Assim que a aplicação certifica que todos estão instalados, estes são carregados
+para a aplicação da seguinte maneira:
+
+\lstinputlisting[language=Python, firstline=12, lastline=19]{statistics.r}
+
+carregados todos os módulos, iniciamos em um processo de leitura da tabela ods.
+
 \section{Construção do Framework}
 \label{sec:gamifição}
 Definidas as técnicas para a implementação, estas foram utilizadas para a construção do Framework
