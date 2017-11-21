@@ -160,7 +160,7 @@ os comentários feitos a outras pessoas. O ambiente de 'fofoca' estimulava o amb
 Medo de exposição de seus detalhes pessoas para demais indivíduos.
 \subsubsection{Usuário 02}
 A probabilidade de perder o controle diante da invasão de privacidade. E trazer
-consequencias reais para a vida da pessoa.
+consequências reais para a vida da pessoa.
 \subsubsection{Usuário 03}
 Falta de atualização e novidades em novos conteúdos no portal.
 \subsubsection{Usuário 04}
@@ -348,7 +348,7 @@ foi construído:
 Todas estas técnicas serão aplicadas nos objetos de Gamificação que  serão definidos na próxima sessão.
 
 \section{Objeto de Gamificação}
-\label{sec:gamifição}
+\label{sec:implementacao_objeto_gamificao}
 Assim que todo o Framework foi montado, possibilitou então que fossem escolhidos em quais
 pontos da About seria possível aplicá-los. Esta sessão irá discutir sobre todos os pontos de escolha
 dos objetos de Gamificação.
@@ -394,6 +394,20 @@ E além disso, ser apresentado aos usuários aumenta esta influência.
 Esta motivação é muito importante para que o usuário se mantenha na rede social. Ela será aplicada
 na fase do dia a dia do usuário.
 
+\subsection{Objeto para Desenvolvimento e Realização}
+\label{sub:objeto_desenvolvimento_e_realizacao}
+Para esta motivação, é extremamente importante para o usuário, para que o usuário acompanhe seu progresso
+na obtenção de pontos. Assim, as seguintes técnicas foram utilizadas:
+
+\begin{itemize}
+    \item Pontos;
+    \item Barra de Progresso.
+\end{itemize}
+
+Esta motivação será aplicada na fase do dia a dia do usuário, motivando este a sempre subir de nível
+e conseguir pontos suficientes para liberar as suas metas.
+
+
 \subsection{Objeto Imprevisibilidade \& Escassez}
 \label{sub:objeto_imprevisibilidade}
 Estas duas motivações básicas já estão implementadas na Rede Social About pela sua essência e foi
@@ -411,7 +425,7 @@ nas fases de Descoberta e Entrada.
 
 \subsection{Objeto para Perca e Rejeição}
 \label{sub:objeto_perca_rejeicao}
-Esta técnica foi utilizada como parte importante do projeto para motivar o usuário a não deixar a rede
+Esta motivação foi utilizada como parte importante do projeto para motivar o usuário a não deixar a rede
 social e sempre estar atualizando e participando. Para esta motivação, foi implementada a seguinte técnica:
 
 \begin{itemize}
@@ -430,3 +444,59 @@ e não deixar de escrever abouts.
 \label{sec:gamifição}
 Assim que todo o Framework foi estabelecido e seus objetos também, foi possível implementar
 na rede social todos os pontos para colocar estas técnicas em prática.
+
+As técnicas implementadas na rede social serão apresentadas na mesma ordem da sessão
+\ref{sec:implementacao_objeto_gamificacao}, mostrando os detalhes de utilização do usuário dentro
+da da motivação básica.
+
+
+\subsection{Implementação para Empoderamento e Feedback}
+\label{sub:implementacao_empoderamento_feedback}
+Para a implementação desta motivação básica, 
+
+\subsection{Implementação para Influência Social}
+\label{sub:implementacao_influencia_social}
+Para a implementação da Influência social, foi criada primeiramente a prateleira de troféus, mostrando
+ao usuário tudo aquilo que ele conquistou na plataforma. Então, o primeiro passo é definir quais são
+as possíveis medalhas que os usuários podem conquistar. Foram criados dois tipos de medalhas com diferentes
+níveis: Criador de Abouts, Julgador de Abouts. Estes são os níveis:
+
+\begin{itemize}
+    \item Medal abouter - Agora você é um abouter;
+    \item Medal 5 abouts - 5 Abouts Escritos;
+    \item Medal 20 abouts - 20 Abouts Escritos;
+    \item Medal 100 abouts - 100 Abouts Escritos;
+    \item Medal 1000 abouts - 1000 Abouts Escritos;
+    \item Medal 5 judge - 5 Abouts Julgados;
+    \item Medal 100 judge - 100 Abouts Julgados;
+    \item Medal 1000 judge - 1000 Abouts Julgados;
+    \item Medal 5000 judge - 5000 Abouts Julgados;
+    \item Medal 10000 judge - 10000 Abouts Julgados;
+\end{itemize}
+
+Assim, sempre que o usuário alcança essas metas, o sistema apresenta para ele uma sequência de medalhas
+conquistadas.
+
+Antes disso, na página do usuário, logo depois do login, existe uma funcionalidade onde este entra para visualizar toda a sua prateleira.
+Existe uma medalha que o usuário já tem no momento que está na rede. A Medal Abouter. Que indica que este
+agora é um denominado Abouter e está na nossa plataforma.
+
+Assim, o usuário necessita apenas clicar no botão apresentado na figura \ref{fig:about_trofeus}.
+
+\begin{figure}[h]
+    \centering
+
+    \includegraphics[width=250px, scale=1]{figuras/about_trofeus}
+    \caption{Framework final do Survey}
+
+    \label{fig:about_trofeus}
+\end{figure}
+
+\subsection{Implementação Imprevisibilidade \& Escassez}
+\label{sub:implementacao_imprevisibilidade}
+
+\subsection{Implementação para Perca e Rejeição}
+\label{sub:implementacao_perca_rejeicao}
+
+\subsection{Objeto para Desenvolvimento e Realização}
+\label{sub:objeto_desenvolvimento_e_realizacao}
