@@ -212,21 +212,21 @@ Bem como a porcentagem que esta representa.
 % Please add the following required packages to your document preamble:
 % \usepackage{booktabs}
 \begin{table}[]
-\centering
-\caption{Percentual de Técnica por Motivação Básica}
-\label{tab:percentual_tecnica_motivacao}
-\begin{tabular}{@{}cccc@{}}
-\toprule
-Motivação Básica & Pontos Totais & Pontos de Votos & Percentual \\ \midrule
-1         & 68            & 140             & 48,57\%    \\
-2         & 102           & 280             & 36,43\%    \\
-3         & 62            & 160             & 38,75\%    \\
-4         & 38            & 120             & 31,67\%    \\
-5         & 93            & 200             & 46,50\%    \\
-6         & 20            & 100             & 20,00\%    \\
-7         & 74            & 120             & 61,67\%    \\
-8         & 32            & 60              & 53,33\%    \\ \bottomrule
-\end{tabular}
+    \centering
+    \caption{Percentual de Técnica por Motivação Básica}
+    \label{tab:percentual_tecnica_motivacao}
+    \begin{tabular}{@{}cccc@{}}
+        \toprule
+        Motivação Básica & Pontos Totais & Pontos de Votos & Percentual \\ \midrule
+        1         & 68            & 140             & 48,57\%    \\
+        2         & 102           & 280             & 36,43\%    \\
+        3         & 62            & 160             & 38,75\%    \\
+        4         & 38            & 120             & 31,67\%    \\
+        5         & 93            & 200             & 46,50\%    \\
+        6         & 20            & 100             & 20,00\%    \\
+        7         & 74            & 120             & 61,67\%    \\
+        8         & 32            & 60              & 53,33\%    \\ \bottomrule
+    \end{tabular}
 \end{table}
 
 Executada esta tabela, já seria possível criar o Framework de Gamificação. Assim,
@@ -452,7 +452,52 @@ da da motivação básica.
 
 \subsection{Implementação para Empoderamento e Feedback}
 \label{sub:implementacao_empoderamento_feedback}
-Para a implementação desta motivação básica, 
+Para a implementação desta motivação básica, foi implementado um meio que o usuário conseguisse
+saber dos demais companheiros impressões sobre seus abouts, tendo feedbacks sobre, em consequência,
+da sua personalidade. 
+
+Assim, foi criado um novo ambiente, onde um usuário visualiza cinco abouts de um outro usuário
+da sua rede de amigos escolhido aleatoriamente. Após ler todos este, ele escreve um feedback, 
+que aparecerá para o receptor como outro About. Aqui o usuário tem feedback instantâneo sobre
+sua impressão de vários usuários. 
+
+Esta motivação será responsável por trabalhar no engajamento do usuário entre a
+fase de entrada e a do dia a dia, assim que ele começa a utilizar a rede social e já possui
+alguns poucos abouts. 
+
+Além disso, os próprios abouts são maneiras de feedback sobre a personalidade em questão, o
+que contribui mais uma vez para a execução desta técnica.
+
+A seguir, na figura \ref{fig:julgamento_menu}, está a indicação da Técnica, que foi batizada de Julgamento. Pois ali o juiz
+irá dar uma impressão sobre vários usuários.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=250px, scale=1]{figuras/julgamento_menu}
+    \caption{Menu com o Julgamento}
+    \label{fig:julgamento_menu}
+\end{figure}
+
+Na figura \ref{fig:julgamento} será apresentado o formato de dados para o usuário teste,
+criado pela biblioteca do Facebook JoeAlbbfibifihjdSeligsteinse.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=350px, scale=1]{figuras/julgamento}
+    \caption{Julgamento}
+    \label{fig:julgamento}
+\end{figure}
+
+E logo abaixo, existe o campo para o usuário executar o julgamento, na figura \ref{fig:julgamento_about}.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=350px, scale=1]{figuras/julgamento_about}
+    \caption{About para Julgamento}
+    \label{fig:julgamento_about}
+\end{figure}
+
+Depois disso, será apresentado um novo usuário para ser julgado.
 
 \subsection{Implementação para Influência Social}
 \label{sub:implementacao_influencia_social}
@@ -485,18 +530,134 @@ Assim, o usuário necessita apenas clicar no botão apresentado na figura \ref{f
 
 \begin{figure}[h]
     \centering
-
-    \includegraphics[width=250px, scale=1]{figuras/about_trofeus}
-    \caption{Framework final do Survey}
-
+    \includegraphics[width=150px, scale=1]{figuras/about_trofeus}
+    \caption{Botão para listar Troféus}
     \label{fig:about_trofeus}
 \end{figure}
+
+Quando ele clicar neste botão, o painel irá abrir na parte inferior da aplicação, apresentando todas
+as medalhas que este usuário possui, assim como na figura \ref{fig:show_trofeus}.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=450px, scale=1]{figuras/show_trofeus}
+    \caption{Prateleira de Troféus}
+    \label{fig:show_trofeus}
+\end{figure}
+
+Outra técnica aplicada foi o orgulho social, apresentando para todos os usuários todas as impressões que os demais
+usuários tem sobre ele. Esta técnica é extremamente importante para a que o usuário se mantenha motivado
+na fase do dia a dia. Esta gera no usuário uma vontade de se tornar influente através dos abouts feitos em sua
+timeline. Caso os abouts sejam positivos, os usuários vão olhar este perfil com bons olhos e começará
+a ser mais influente na comunidade que atua.
+
+Os abouts do perfil podem ser vistos na figura \ref{fig:show_profile}.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=450px, scale=1]{figuras/show_profile}
+    \caption{Perfil do Usuário com abouts}
+    \label{fig:show_profile}
+\end{figure}
+
+Assim, essas foram as técnicas utilizadas na motivação básica de Influência Social. As próximas
+serão apresentadas na sessão seguinte \ref{sub:implementacao_imprevisibilidade}.
 
 \subsection{Implementação Imprevisibilidade \& Escassez}
 \label{sub:implementacao_imprevisibilidade}
 
-\subsection{Implementação para Perca e Rejeição}
-\label{sub:implementacao_perca_rejeicao}
+Como dito anteriormente, a About em si já é gamificada e possui estas duas motivações básicas. 
+Nesta sessão, iremos evidenciá-las. 
+
+O primeiro ponto, da imprevisibilidade, pode ser visto que o usuário nunca saberá se virão
+abouts positivos ou negativos. Além disso, se estes serão votados positivamente ou não. 
+
+Já a escassez se dá nos mesmo objetos, porém de formas diferentes. O usuário está privado
+de saber quem escreveu aquele About, até que este seja desbloqueado. Da mesma forma, não exite
+nenhuma informação dos votos executados naquele About. O usuário não tem esse tipo de informação.
+
+O usuário também está privado de todo o tipo de informação caso esteja fora da About, o que o motiva
+e querer estar dentro dela, participando e interagindo com a comunidade. Além disso, este é prejudicado
+por não  conseguir ver o que todos os demais estão falando e comentando sobre outras pessoas, seja no
+ambiente profissional, familiar ou informal da roda de amigos.
 
 \subsection{Objeto para Desenvolvimento e Realização}
 \label{sub:objeto_desenvolvimento_e_realizacao}
+Para a implementação da motivação básica do Desenvolvimento e Realização, onde foram utilizadas duas técnicas.
+Tanto quanto para a pontuação do usuário, quanto para a barra de progresso. Então foi criado um padrão de pontuação para
+o usuário. Assim, como a barra de progresso utilizando níveis.
+
+Para a pontuação, um usuário ganha uma quantidade de pontos X a cada About que ele escreve ou julga.
+Para esta pontuação, existe uma base para iniciar a contagem. Exemplo: se X vale 10 pontos, a cada About escrito e
+julgado, ele ganha 10 e 1 pontos respectivamente. 
+
+Porém, existe um sistema de incentivo para que o usuário entre na plataforma todos os dias. O valor de X para a pontuação
+é incrementado em 10 cada dia consecutivo que este interage com a plataforma. Assim, se o usuário escreve no dia 1 e no dia 2,
+neste segundo dia, o valor de X vale 20, no dia 3, irá valer 40. E este incremento só irá ser finalizado
+caso o usuário não faça nenhuma interação durante aquele dia.
+
+Estes pontos são utilizados também para o esquema de níveis da aplicação. O usuário conquista níveis maiores
+conforme ganha pontos. Ao todo são 23 níveis, estes serão apresentados a seguir:
+
+\begin{itemize}
+    \begin{multicols}{2}
+        \item 0: 0;
+        \item 1: 240;
+        \item 2: 600;
+        \item 3: 1080;
+        \item 4: 1680;
+        \item 5: 2300;
+        \item 6: 2940;
+        \item 7: 3600;
+        \item 8: 4280;
+        \item 9: 5080;
+        \item 10: 5900;
+        \item 11: 6740;
+        \item 12: 7640;
+        \item 13: 8865;
+        \item 14: 10115;
+        \item 15: 11390;
+        \item 16: 12690;
+        \item 17: 14015;
+        \item 18: 15415;
+        \item 19: 16905;
+        \item 20: 20155;
+        \item 21: 22155;
+        \item 22: 24405;
+        \item 23: 26905;
+        \item 24: 28905;
+        \item 25: 31000.
+    \end{multicols}
+\end{itemize}
+
+Assim, sempre que o usuário utiliza a plataforma fazendo abouts ou julgando, ele adquire pontos,
+e sobre de níveis, onde este também é apresentado ao usuário. A figura \ref{fig:niveis}.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=450px, scale=1]{figuras/niveis2}
+    \caption{Nível do Usuário}
+    \label{fig:niveis}
+\end{figure}
+
+Sendo assim, é feita uma apresentação ao usuário sobre em qual nível ele atualmente está, quantos
+pontos tem na plataforma e quantos faltam para o próximo nível.
+
+Além disso, o níveis se utilizam desta barra de progresso, para informar a caminhada que este ainda
+tem até o próximo nível.
+
+
+\subsection{Implementação para Perca e Rejeição}
+\label{sub:implementacao_perca_rejeicao}
+Para a implementação de Perca e Rejeição, foi utilizada a técnica FOMO Ponch. Aqui são utilizados os pontos
+do usuário para fazer com que ele se sinta motivado a não deixar a rede social. Assim, como explicado na
+sessão \ref{sub:objeto_desenvolvimento_e_realizacao}
+existe um sistema de pontuação para criação e votação de abouts. Esta presente técnica trabalha com o fato
+do usuário querer ganhar mais e mais pontos.
+
+Como depois de dias consecutivos escrevendo abouts, o usuário acumula bônus de pontos para utilizar na rede
+social em si. Assim, foi executada a implementação para que quando o usuário não interaja por um dia, ele vai
+perder todos esses números.
+
+A seguir está a implementação para a execução desta técnica.
+
