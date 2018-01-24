@@ -2,40 +2,43 @@
 Esta sessão traz todo referencial teórico necessário para desenvolver o projeto
 de aplicação do \textit{Octalysis}, contemplando tópicos explicativos sobre os subsídios
 necessários para suporte na construção deste. Este capítulo contempla três sessões.
-A sessão \ref{sec:gamifição} trata sobre o contexto de gamificação atual, qual a
+A sessão \ref{sec:gamifição} trata sobre o contexto de Gamificação atual, qual a
 sua funcionalidade e qual a sua aplicação na sociedade, bem como a apresentação
-de um \textit{Framework} consolidado para o seu desenvolvimento. A sessão \ref{sec:redessociais}
+de um \textit{Framework} consolidado para o seu desenvolvimento. 
+Para dar mais embasamento no \textit{Framework} de Gamificação que será usado, a sessão
+\ref{sub:octalysisframework} trata apenas do \textit{Octalysis}.
+A sessão \ref{sec:redessociais}
 trata sobre Redes Sociais com a proposta que vai de encontro com a linha da RSA.
 Por fim, na sessão \ref{sec:processo_de_desenvolvimento_de_software},
-éapresentado uma visão geral sobre processos de
+é apresentado uma visão geral sobre processos de
 Desenvolvimento de \textit{Software}, bem como a Metodologia que é aplicada e utilizada
 para a conclusão do projeto estipulado.
 
 \section{Gamifição}
 \label{sec:gamifição}
-A gamifição, apesar deste nome, não remete que uma dada ferramenta é um jogo,
+A Gamificação, apesar deste nome, não remete que uma dada ferramenta é um jogo,
 como dito por \cite{popularitygamification}, este processo é o emprego de
 várias funcionalidades e características presentes em \textit{Games} em uma determinada
 plataforma. Este utiliza como exemplo a palavra \textit{game-fy-ing}, que nos sugere
 exatamente o fato de aplicar estas características de \textit{Game} dentro de algo.
 
-A aplicação e a diferença entre \textit{game} e gamifição fica evidenciada
-no estudo de \cite{deterding2011gamification}, onde estes afirmam que a gamifição contém  apenas
+A aplicação e a diferença entre \textit{game} e Gamificação fica evidenciada
+no estudo de \cite{deterding2011gamification}, onde estes afirmam que a Gamificação contém  apenas
 um uso dos elementos das características de \textit{design} de \textit{games}, tudo isso,
 aplicado em contextos que não são \textit{games}. O que é totalmente diferente
 de um \textit{design} produzido unicamente para jogos.
 
-A primeira vez que se tem registro do uso do termo gamifição foi em 2002,
+A primeira vez que se tem registro do uso do termo Gamificação foi em 2002,
 por \cite{pelling}, mas ainda assim este termo não foi aplicado e comumente
 utilizado. Apenas no final de 2010, como dito por \cite{deterding2011gamification}, que
 este termo foi adotado como uma maneira não de transformar algo em um \textit{game},
 mas de aplicar e aproveitar todas as características positivas deste em uma dada
 plataforma.
 
-Todo o processo de gamifição aplicado a qualquer plataforma se basea em
+Todo o processo de Gamificação aplicado a qualquer plataforma se baseia em
 quatro blocos, que podem ser características advindas dos \textit{games}. Podem ser
 aplicados os seguintes pontos, com alguns a mais ou a menos, a depender
-do perfil do profissional que está desenhando a gamifição, segundo \cite{mcgonigal2011reality}.
+do perfil do profissional que está desenhando a Gamificação, segundo \cite{mcgonigal2011reality}.
 Os quatro pontos são os seguintes:
 
 \begin{itemize}
@@ -46,7 +49,7 @@ Os quatro pontos são os seguintes:
 \end{itemize}
 
 O pensamento de \cite{deterding2011gamification}  sobre a divisão clara entre jogos sérios
-de jogos de diversão e a gamificação é colocado em um diagrama, onde este
+de jogos de diversão e a Gamificação é colocado em um diagrama, onde este
 apresenta os limites de cada parte. Este pensamento, desenhado em um diagrama,
 está apresentado na Figura \ref{fig:gamificacaodetalhada}. Este modo de pensar é interessante, pois
 é similar à composição de jogos, composta por \cite{mcgonigal2011reality}, onde este
@@ -58,7 +61,7 @@ também se enquadra no mesmo pensamento e perspectiva de \cite{mcgonigal2011real
 \begin{figure}[h]
     \centering
     \includegraphics[width=400px, scale=1]{figuras/gamificacaodetalhada}
-    \caption{Definição detalhada de gamificação. }
+    \caption{Definição detalhada de Gamificação \cite{mcgonigal2011reality}. }
     \label{fig:gamificacaodetalhada}
 \end{figure}
 
@@ -67,28 +70,28 @@ Sobre motivações e engajamento, \cite{chou2015actionable}  defende que as moti
 do usuário vem bem antes das execuções das mecânicas dos jogos. Este defende
 que as mecânicas dos jogos não são os verdadeiros motivos de um jogo ser
 engajado, mas sim, a motivação do usuário em usá-lo, fazendo com que seja
-necessário pensar, avaliar e projetar o que o usuário deseja sentir. \cite{chou2015actionable} define que a gamificação é uma forma diferente de derivar o engajamento
+necessário pensar, avaliar e projetar o que o usuário deseja sentir. \cite{chou2015actionable} define que a Gamificação é uma forma diferente de derivar o engajamento
 e a motivação  que comumente é encontrada nos jogos, fazendo essa afirmação
 mesmo acreditando que a discussão seja válida para a comunidade.
 
 Assim, dessa forma, temos a definição de \cite{zichermann2011gamification} sobre qual é o conceito de
-gamifição, afirmando que este é um processo de pensamento da aplicação assim
+Gamificação, afirmando que este é um processo de pensamento da aplicação assim
 como jogador e fazendo a utilização
 de mecanismos de \textit{game} que servem para motivar e engajar os usuários a utilizarem
 determinada funcionalidade e resolver problemas.
 
-Autor, em seu estudo, defende o quão importante a gamifição é na definição
+\cite{zichermann2011gamification}, em seu estudo, defende o quão importante a Gamificação é na definição
 de alguma plataforma. Ele utiliza a pergunta: "\textit{Why Gamify?}". Assim, este defende
-que a gamifição é uma ferramenta poderosa, que consegue capturar com habilidade
+que a Gamificação é uma ferramenta poderosa, que consegue capturar com habilidade
 a atenção de pessoas para alguma atividade alvo definida.
 
-Autor ainda defende  o poder da gamifição com alguns exemplos práticos,
+\cite{zichermann2011gamification} ainda defende  o poder da Gamificação com alguns exemplos práticos,
 como a utilização por 18 milhões de pessoas em todo o mundo do jogo Nike+.
 Além da interessante utilização modificada dos jogadores de
 \textit{Piano Stairs} que jogam em \textit{Odenplan}, onde sessenta e seis porcento destes
 escolheram a opção de escada e não a opção de elevador.
 
-\subsection{Modelos de Bartle}
+\subsection{Modelos de Gamificação de Bartle}
 \label{sub:modeloBartle}
 O estudo proposto por \cite{bartle1996hearts} aponta que normalmente, os jogadores
 tem perfis definidos. Que, por mais que ele pense para várias situações
@@ -154,18 +157,18 @@ um todo. Estas diferenças podem ser observadas na Figura \ref{fig:perfiljogador
 \subsection{Modelos centrados no ser humano}
 \label{sub:modelosnoserhumano}
 Existem no mercado vários \textit{Frameworks} e projetos que tem como finalidade o ser
-humano que está por trás do que está sendo gamificado. Além disso, há
-vários processos de gamificação que tem como base esta filosofia. 
+humano que está por trás do que está sendo gamificada. Além disso, há
+vários processos de Gamificação que tem como base esta filosofia. 
 \cite{kumar2013gamification}
 cunhou este termo, também sendo utilizado por \cite{chou2015actionable} em seu projeto.
-Estes dois projetos demonstrados a seguir nesta sessão. O primeiro
-deles é o modelo de Kumar, sendo o segundo o \textit{Framework} Octalysis, de Yu-kai Chou.
+Serão demonstrados dois projetos nesta sessão. O primeiro
+deles é o modelo de Kumar, sendo o segundo o \textit{Framework} \textit{Octalysis}, de Yu-kai Chou.
 
 \subsubsection{Modelo de Kumar}
 \label{sub:modelodekumar}
-O modelo de Kumar sugere que antes de fazer qualquer projeto e aplicar qualquer gamificação,
+O modelo de Kumar sugere que antes de fazer qualquer projeto e aplicar qualquer Gamificação,
 é necessário entender o tipo de usuário que está em jogo, qual a categoria de usuário
-que está sendo discutida. Dessa forma, é possível aplicar traços de gamificação
+que está sendo discutida. Dessa forma, é possível aplicar traços de Gamificação
 que condizem com a perspectiva do usuário, e assim, fazer com que este aproveite
 mais das características que serão cunhadas. Após a elaboração do contexto do
 usuário, se faz necessário definir e entender a missão e identificar qual o negócio
@@ -196,27 +199,28 @@ avaliar o quão é necessário modificar as estratégias de negócio.
 \label{sub:modelodeyu-kaichou}
 Este é um modelo que o principal foco é o personagem humano, que está do lado
 de fora do jogo. \cite{chou2015actionable} acredita que o usuário vem antes de qualquer evento
-dentro de uma gamificação. A sua intenção, elaborando um novo \textit{design} de projeto
-de gamificação, é quebrar o paradigma de que esta deve ter um foco funcional,
-apenas para obter resultados rápidos. Este acredita que a função da gamificação
-deve vir para engajar e motivar o ser humano, e para isso, é nessário entender o
+dentro de uma Gamificação. A sua intenção, elaborando um novo \textit{design} de projeto
+de Gamificação, é quebrar o paradigma de que esta deve ter um foco funcional,
+apenas para obter resultados rápidos. Este acredita que a função da Gamificação
+deve vir para engajar e motivar o ser humano, e para isso, é pessário entender o
 que está por trás de tudo isso, ou seja, as pessoas que estão para ter o
 potencial de engajamento aumentado.
 
-Chou desenvolveu um \textit{Framework} que este intitulou de Octalysis, no qual atribuiu
+Chou desenvolveu um \textit{Framework} que este intitulou de \textit{Octalysis}, \cite{chou2015actionable}, no qual atribuiu
 este nome devido as oito faces de motivações básicas do usuário definido por ele.
-Este esquema é representado pelas motivações básicas, uma em cada face do Octalysis,
+Este esquema é representado pelas motivações básicas, uma em cada face do \textit{Octalysis},
 como representado na figura \ref{fig:octalysisex}.
 
 \begin{figure}[h]
     \centering
     \includegraphics[width=300px, scale=1]{figuras/octalysisex}
-    \caption{\textit{Octalysis Framework.}}
+    \caption{\textit{Octalysis Framework, \cite{chou2015actionable}.}}
     \label{fig:octalysisex}
 \end{figure}
 
-Dentre as opções e os \textit{Frameworks} diferentes de gamificação, para a aplicação
-deste trabalho é utilizado o Octalysis. Assim, é dedicado um capítulo
+Dentre as opções e os \textit{Frameworks} diferentes de Gamificação, para a aplicação
+deste trabalho é utilizado o \textit{Octalysis}, pois é utilizado em projetos da Fábrica de
+Software, a qual o orientador deste trabalho faz parte. Assim, é dedicado um capítulo
 unicamente para a definição deste \textit{Framework}, que está disposto a seguir.
 
 \input{editaveis/octalysis}
@@ -244,7 +248,7 @@ de base \textit{web}, que permite que usuários individuais construam um perfil 
 semi público definido pelas fronteiras do sistema. Este articula com uma lista de
 vários outros usuários com quem podem compartilhar uma conexão, além de ver e
 interagir com esta gama. Estes podem fazer novos amigos e novas conexões no sistema.
-Assim, tem-se que a natureza da própria nomeclatura induz que essas ligações
+Assim, tem-se que a natureza da própria nomenclatura induz que essas ligações
 são elaboradas e modificadas de um site para outro, sendo que cada um tem a sua
 peculiaridade.
 
@@ -274,7 +278,7 @@ registro, utilizando o conceito abordado acima, é a \textit{SixDegrees.com}, se
 em 1997. Esta permitia com que os usuários criassem seus perfis, que adicionassem
 amigos, tendo assim uma lista destes. E em 1998, começou a permitir que fosse possível
 navegar entre os perfis que estavam em sua lista de amigos. Segundo os autores,
-essas características e vizualização de perfil já existiam antes mesmo da \textit{SixDegrees.com,}
+essas características e visualização de perfil já existiam antes mesmo da \textit{SixDegrees.com,}
 em várias aplicações de encontro romântico que eram presentes.
 
 Em 1999, \textit{LiveJournal} adicionou algo que se tornaria muito comum nos dias de hoje:
@@ -421,7 +425,7 @@ Para \cite{sommerville2011software}, existem muitas metodologias diferentes para
 
 \end{itemize}
 
-Dentre esses quatro modelos, étratado neste trabalho o modelo de desenvolvimento 
+Dentre esses quatro modelos, é tratado neste trabalho o modelo de desenvolvimento 
 evolucionário. Pois as metodologias ágeis, metodologia foco deste estudo
 , se enquadra neste modelo
 
@@ -445,6 +449,6 @@ Nessa linha de pensamento, \cite{pressman2009engenharia} diz que os métodos ág
 
 Como consequência das filosofias ágeis, \cite{soares} observou que há uma grande preocupação com a otimização do tempo, ao ter um esforço menor com documentação desnecessária para alcançar o produto final e mais devoção para na produção.
 
-De acordo com \cite{soares}, o desenvolvimento ágil também é conhecido por ser adaptativo ao invés de preditivo. Nos processos tradicionais, o planejamento e escopo eram inteiramente definidos no começo do projeto. Esse planejamento tem um custo elevado, além de ser extremamente complexo. O seu escopo não pode ser alterado durante o processo, fato que pode trazer a insatisfação do cliente, pois as suas necessidades podem mudar com o passar do tempo. Se houver algum erro no planejamento, ele será encontrado apenas na entrega final para o cliente. Como já dito por \cite{pressman2009engenharia}, o modelo ágil soluciona esses problemas com entregas de produtos funcionais para o cliente em ciclos curtos. A cada ciclo o cliente pode avaliar se o que foi desenvolvido está dentro das suas necessidades e quais as necessidades futuras são necessárias para a próxima entrega. Esta política diminui o risco da perca de trabalho por um planejamento errado, por um requisito mal interpretado ou mal implementado e por retrabalho ao implementar novamente o mesmo requerimento do cliente.
+De acordo com \cite{soares}, o desenvolvimento ágil também é conhecido por ser adaptativo ao invés de preditivo. Nos processos tradicionais, o planejamento e escopo eram inteiramente definidos no começo do projeto. Esse planejamento tem um custo elevado, além de ser extremamente complexo. O seu escopo não pode ser alterado durante o processo, fato que pode trazer a insatisfação do cliente, pois as suas necessidades podem mudar com o passar do tempo. Se houver algum erro no planejamento, ele será encontrado apenas na entrega final para o cliente. Como já dito por \cite{pressman2009engenharia}, o modelo ágil soluciona esses problemas com entregas de produtos funcionais para o cliente em ciclos curtos. A cada ciclo o cliente pode avaliar se o que foi desenvolvido está dentro das suas necessidades e quais as necessidades futuras são necessárias para a próxima entrega. Esta política diminui o risco da perda de trabalho por um planejamento errado, por um requisito mal interpretado ou mal implementado e por retrabalho ao implementar novamente o mesmo requerimento do cliente.
 
 Essa metodologia vem sendo mais presente em projetos de desenvolvimento de software. Segundo \cite{thegood}, no próprio ano de 2008, 70\% das organizações estavam utilizando métodos ágeis para a produção de software.
